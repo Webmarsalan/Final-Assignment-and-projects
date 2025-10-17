@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Products - Yarn Manufacturer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Yarn Products</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Add Yarn Details</h2>
+    <form id="yarnForm">
+      <input type="text" id="brand" placeholder="Brand" required>
+      <input type="text" id="color" placeholder="Color" required>
+      <input type="text" id="fiber" placeholder="Fiber Content" required>
+      <input type="text" id="weight" placeholder="Weight Type" required>
+      <input type="number" id="quantity" placeholder="Quantity (grams)" required>
+      <input type="date" id="purchaseDate" required>
+      <button type="submit">Add Yarn</button>
+    </form>
+
+    <input type="text" id="searchInput" placeholder="Search by brand or color...">
+
+    <table id="yarnTable">
+      <thead>
+        <tr>
+          <th>Brand</th>
+          <th>Color</th>
+          <th>Fiber</th>
+          <th>Weight</th>
+          <th>Quantity</th>
+          <th>Purchase Date</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+  <ul>
+  <li>8/1 TO 10/1 CARDED SLUB STRETCH YARN</li>
+  <li>7/1 TO 10/1 CARDED YARN C/F</li>
+  <li>14/1 TO 40/1 COMBED COMPACT STRETCH YARN</li>
+  <li>2 PLY AND 3 PLY YARN DOUBLERS</li>
+  <li>SIRO 7/1 TO 12/1</li>
+ </ul>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,69 +1,97 @@
-/* Basic page styling */
 body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
-  display: flex;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff8f0;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7asqZZo5daRtkce3KI_IV953b3Kp5-VyPYg&s)no-repeat center center/cover;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #6b80f7;
+  padding: 10px;
+  color: rgb(48, 48, 48);
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  height: 100%;
+  display: flexbox;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
-}
-
-/* Calculator container */
-.container {
-  background: white;
-  padding: 25px 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  width: 300px;
   text-align: center;
+  color: white;
+  flex-direction: column;
 }
 
-h1 {
-  color: #333;
-  margin-bottom: 20px;
-}
-
-/* Input fields */
-.input-group {
-  margin-bottom: 15px;
-  text-align: left;
-}
-
-label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-input {
-  width: 100%;
+form input, form button, textarea {
+  margin: 5px;
   padding: 8px;
+  border-radius: 5px;
   border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 16px;
 }
 
-/* Button styling */
 button {
-  background-color: #4CAF50;
+  background-color: #6d6875;
   color: white;
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #85d660;
 }
 
-/* Result styling */
-#result {
-  margin-top: 20px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #222;
+table {
+  margin: 20px auto;
+  width: 90%;
+  border-collapse: collapse;
 }
+
+th, td {
+  border: 1px solid #413e3e;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #464545;
+}
+
+footer {
+  background-color: #6d6875;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+ .logo img {
+      height: 50px;   /* Adjust logo size */
+      width: 65px;
+      display: flex;
+    }
+
+.nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .nav-links a:hover {
+      color: #00bfff;
+    }
